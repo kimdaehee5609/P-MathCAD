@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?validation-md5-digest 4bfda08d1ead2da6f8a4fc7cd2dc2dfd?>
+<worksheet version="3.0.3" xmlns="http://schemas.mathsoft.com/worksheet30" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ws="http://schemas.mathsoft.com/worksheet30" xmlns:ml="http://schemas.mathsoft.com/math30" xmlns:u="http://schemas.mathsoft.com/units10" xmlns:p="http://schemas.mathsoft.com/provenance10">
+	<pointReleaseData/>
+	<metadata>
+		<generator>Mathcad Professional 14.0</generator>
+		<userData>
+			<title/>
+			<description/>
+			<author>kdh</author>
+			<company>Parametric Technology Corporation</company>
+			<keywords/>
+			<revisedBy>kdh</revisedBy>
+		</userData>
+		<identityInfo>
+			<revision>348</revision>
+			<documentID>0C9D2B00-398B-4234-9189-895638B97082</documentID>
+			<versionID>773109E3-7CFD-4A97-9D1C-B4AD43A44DD7</versionID>
+			<parentVersionID>00000000-0000-0000-0000-000000000000</parentVersionID>
+			<branchID>00000000-0000-0000-0000-000000000000</branchID>
+		</identityInfo>
+	</metadata>
+	<settings>
+		<presentation>
+			<textRendering>
+				<textStyles>
+					<textStyle name="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="돋움" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 1">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="14" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 2">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="12" font-weight="bold" font-style="italic" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 3">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="12" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Paragraph">
+						<blockAttr margin-left="0" margin-right="0" text-indent="21" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="List">
+						<blockAttr margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Indent">
+						<blockAttr margin-left="108" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Title">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="center" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="HY견고딕" font-charset="129" font-size="24" font-weight="bold" font-style="normal" underline="true" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Subtitle" base-style="Title">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Times New Roman" font-charset="0" font-size="18" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="1." base-style="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="HY견고딕" font-charset="129" font-size="14" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="1.1" base-style="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="HY견고딕" font-charset="129" font-size="12" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="1.1.1" base-style="Normal">
+						<blockAttr margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="inherit" font-charset="inherit" font-size="inherit" font-weight="inherit" font-style="inherit" underline="inherit" line-through="inherit" vertical-align="inherit"/>
+					</textStyle>
+					<textStyle name="1)" base-style="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="HY견고딕" font-charset="129" font-size="12" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="(1)" base-style="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="HY견고딕" font-charset="129" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="강조" base-style="Normal">
+						<blockAttr margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="HY견고딕" font-charset="129" font-size="inherit" font-weight="inherit" font-style="inherit" underline="inherit" line-through="inherit" vertical-align="inherit"/>
+					</textStyle>
+					<textStyle name="본문강조" base-style="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="HY견고딕" font-charset="129" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Error" base-style="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="돋움" font-charset="0" font-size="12" font-weight="normal" font-style="italic" underline="false" line-through="false" vertical-align="baseline" color="#00f"/>
+					</textStyle>
+					<textStyle name="설명문" base-style="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="돋움" font-charset="0" font-size="9" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+				</textStyles>
+			</textRendering>
+			<mathRendering equation-color="#000">
+				<operators multiplication="x" derivative="derivative" literal-subscript="small" definition="colon-equal" global-definition="triple-equal" local-definition="left-arrow" equality="bold-equal" symbolic-evaluation="right-arrow"/>
+				<mathStyles>
+					<mathStyle name="Variables" font-family="Arial Narrow" font-charset="0" font-size="11" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Constants" font-family="Arial Narrow" font-charset="0" font-size="11" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="INPUT" font-family="Arial Narrow" font-charset="0" font-size="11" font-weight="normal" font-style="normal" underline="false" color="#f00"/>
+					<mathStyle name="User 2" font-family="Courier New" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 3" font-family="Arial" font-charset="0" font-size="10" font-weight="bold" font-style="normal" underline="false"/>
+					<mathStyle name="User 4" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="italic" underline="false"/>
+					<mathStyle name="User 5" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 6" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="검토결과" font-family="HY견고딕" font-charset="129" font-size="11" font-weight="normal" font-style="italic" underline="false"/>
+					<mathStyle name="Math Text Font" font-family="Times New Roman" font-charset="0" font-size="14" font-weight="normal" font-style="normal" underline="false"/>
+				</mathStyles>
+				<dimensionNames mass="mass" length="length" time="time" current="current" thermodynamic-temperature="temperature" luminous-intensity="luminosity" amount-of-substance="substance" display="false"/>
+				<symbolics derivation-steps-style="vertical-insert" show-comments="false" evaluate-in-place="false"/>
+				<results numeric-only="true">
+					<decimal precision="3" show-trailing-zeros="false" radix="dec" complex-threshold="10" zero-threshold="15" imaginary-value="i"/>
+					<matrix display-style="auto" expand-nested-arrays="false"/>
+					<unit format-units="true" simplify-units="true" fractional-unit-exponent="false"/>
+				</results>
+			</mathRendering>
+			<pageModel show-page-frame="true" show-header-frame="false" show-footer-frame="false" header-footer-start-page="1" paper-code="9" orientation="portrait" print-single-page-width="true" page-width="595.5" page-height="841.5">
+				<margins left="56.66457" right="56.66457" top="85.03938" bottom="56.69291"/>
+				<header use-full-page-width="false"/>
+				<footer use-full-page-width="false">
+					<left>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial Narrow;}{\f1\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1042\f0\fs18\{f\}\cf0\f1\par
+}</left>
+					<right>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+\viewkind4\uc1\pard\qr\lang1042\fs18\{n\}\par
+}</right>
+				</footer>
+				<pageOneHeader use-full-page-width="false"/>
+				<pageOneFooter use-full-page-width="false">
+					<left>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial Narrow;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1042\f0\fs18\{f\}\{p\}\par
+}</left>
+				</pageOneFooter>
+			</pageModel>
+			<colorModel background-color="#fff" default-highlight-color="#ffff80"/>
+			<language math="en" UI="en"/>
+		</presentation>
+		<calculation>
+			<builtInVariables array-origin="0" convergence-tolerance="0.001" constraint-tolerance="0.001" random-seed="1" prn-precision="4" prn-col-width="8"/>
+			<calculationBehavior automatic-recalculation="true" matrix-strict-singularity-check="true" optimize-expressions="false" exact-boolean="true" strings-use-origin="false" zero-over-zero="0">
+				<compatibility multiple-assignment="MC12" local-assignment="MC12"/>
+			</calculationBehavior>
+			<units>
+				<currentUnitSystem name="si" customized="false"/>
+			</units>
+		</calculation>
+		<editor view-annotations="false" view-regions="false">
+			<ruler is-visible="true" ruler-unit="pc">
+				<tabs>
+					<tab show-guide="true" position="12"/>
+					<tab show-guide="true" position="24"/>
+					<tab show-guide="true" position="36"/>
+					<tab show-guide="true" position="60"/>
+					<tab show-guide="false" position="84"/>
+					<tab show-guide="false" position="108"/>
+					<tab show-guide="false" position="132"/>
+					<tab show-guide="true" position="168"/>
+					<tab show-guide="true" position="252"/>
+					<tab show-guide="true" position="336"/>
+					<tab show-guide="true" position="432"/>
+					<tab show-guide="true" position="468"/>
+				</tabs>
+			</ruler>
+			<plotTemplate>
+				<xy item-idref="1"/>
+			</plotTemplate>
+			<grid granularity-x="6" granularity-y="6"/>
+		</editor>
+		<fileFormat image-type="image/png" image-quality="75" save-numeric-results="true" exclude-large-results="false" save-text-images="false" screen-dpi="96"/>
+		<miscellaneous>
+			<handbook handbook-region-tag-ub="18467" can-delete-original-handbook-regions="true" can-delete-user-regions="true" can-print="true" can-copy="true" can-save="true" file-permission-mask="4294967295"/>
+		</miscellaneous>
+	</settings>
+	<regions>
+		<region region-id="15447" left="6" top="12.75" width="57.75" height="13.5" align-x="11.25" align-y="24" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="false">
+				<p style="1." margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">예제 1.1 </p>
+			</text>
+		</region>
+		<region region-id="18467" left="384" top="24" width="49.5" height="36.75" align-x="399.75" align-y="48" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">kg</ml:id>
+					<ml:unitOverride>
+						<ml:id xml:space="preserve">N</ml:id>
+					</ml:unitOverride>
+					<result xmlns="http://schemas.mathsoft.com/math30">
+						<unitedValue>
+							<ml:real>1</ml:real>
+							<unitMonomial xmlns="http://schemas.mathsoft.com/units10">
+								<unitReference unit="meter" power-numerator="-1"/>
+								<unitReference unit="newton"/>
+								<unitReference unit="second" power-numerator="2"/>
+							</unitMonomial>
+						</unitedValue>
+					</result>
+				</ml:eval>
+			</math>
+			<rendering item-idref="2"/>
+		</region>
+		<region region-id="18301" left="48" top="81.75" width="116.25" height="9.75" align-x="52.5" align-y="90" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="본문강조" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">【 문제 】</p>
+			</text>
+		</region>
+		<region region-id="18303" left="114" top="102.75" width="368.25" height="46.5" align-x="129" align-y="114" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit">질량이 <region region-id="18304" left="146.25" top="103.5" width="48.75" height="14.25" align-x="161.25" align-y="114" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+						<math optimize="false" disable-calc="false">
+							<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+								<ml:id xml:space="preserve">m</ml:id>
+								<ml:apply>
+									<ml:mult style="auto-select"/>
+									<ml:real>68.1</ml:real>
+									<ml:id xml:space="preserve">kg</ml:id>
+								</ml:apply>
+							</ml:define>
+						</math>
+						<rendering item-idref="3"/>
+					</region>
+					<f family="돋움" charset="0" size="10">
+						<inlineAttr font-weight="normal" font-style="normal" underline="false" line-through="false">인 낙하산병이 정지해 있는 열기구에서 낙하한다. 식(1.10)을 사용하여 낙하산이 펴지기 전까지의 속도를 게산하라. 항력계수는 </inlineAttr>
+					</f>
+					<region region-id="18305" left="401.25" top="118.5" width="54.75" height="30.75" align-x="413.25" align-y="136.5" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+						<math optimize="false" disable-calc="false">
+							<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+								<ml:id xml:space="preserve">c</ml:id>
+								<ml:apply>
+									<ml:mult style="auto-select"/>
+									<ml:real font="0">12.5</ml:real>
+									<ml:apply>
+										<ml:div/>
+										<ml:id xml:space="preserve">kg</ml:id>
+										<ml:id xml:space="preserve">sec</ml:id>
+									</ml:apply>
+								</ml:apply>
+							</ml:define>
+						</math>
+						<rendering item-idref="4"/>
+					</region>
+					<f family="돋움" charset="0" size="10">
+						<inlineAttr font-weight="normal" font-style="normal" underline="false" line-through="false">이다.</inlineAttr>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="18316" left="48" top="159.75" width="116.25" height="9.75" align-x="52.5" align-y="168" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="본문강조" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">【 풀이 】</p>
+			</text>
+		</region>
+		<region region-id="18318" left="114" top="195.75" width="150" height="9.75" align-x="144.75" align-y="204" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="false">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">매개변수값을 식(1.10)에 대입하면 </p>
+			</text>
+		</region>
+		<region region-id="18319" left="114" top="219.75" width="165.75" height="45" align-x="136.5" align-y="252" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:function>
+						<ml:id xml:space="preserve">v</ml:id>
+						<ml:boundVars>
+							<ml:id xml:space="preserve">t</ml:id>
+						</ml:boundVars>
+					</ml:function>
+					<ml:apply>
+						<ml:mult/>
+						<ml:apply>
+							<ml:div/>
+							<ml:apply>
+								<ml:mult/>
+								<ml:id xml:space="preserve">g</ml:id>
+								<ml:id xml:space="preserve">m</ml:id>
+							</ml:apply>
+							<ml:id xml:space="preserve">c</ml:id>
+						</ml:apply>
+						<ml:parens>
+							<ml:apply>
+								<ml:minus/>
+								<ml:real font="0">1</ml:real>
+								<ml:apply>
+									<ml:pow/>
+									<ml:id xml:space="preserve">e</ml:id>
+									<ml:parens>
+										<ml:apply>
+											<ml:mult/>
+											<ml:apply>
+												<ml:neg/>
+												<ml:parens>
+													<ml:apply>
+														<ml:div/>
+														<ml:id xml:space="preserve">c</ml:id>
+														<ml:id xml:space="preserve">m</ml:id>
+													</ml:apply>
+												</ml:parens>
+											</ml:apply>
+											<ml:parens>
+												<ml:apply>
+													<ml:mult/>
+													<ml:id xml:space="preserve">t</ml:id>
+													<ml:id xml:space="preserve">sec</ml:id>
+												</ml:apply>
+											</ml:parens>
+										</ml:apply>
+									</ml:parens>
+								</ml:apply>
+							</ml:apply>
+						</ml:parens>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="5"/>
+		</region>
+		<region region-id="18323" left="114" top="273.75" width="154.5" height="9.75" align-x="123.75" align-y="282" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="false">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">이를 이용하면 다음의 값을 얻는다. </p>
+			</text>
+		</region>
+		<region region-id="18325" left="114" top="307.5" width="50.25" height="14.25" align-x="124.5" align-y="318" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">t</ml:id>
+					<ml:range>
+						<ml:sequence>
+							<ml:real>0</ml:real>
+							<ml:real>2</ml:real>
+						</ml:sequence>
+						<ml:real>40</ml:real>
+					</ml:range>
+				</ml:define>
+			</math>
+			<rendering item-idref="6"/>
+		</region>
+		<region region-id="18444" left="240" top="348" width="205.5" height="302.25" align-x="240" align-y="348" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<plot disable-calc="false" item-idref="7"/>
+			<rendering item-idref="8"/>
+		</region>
+		<region region-id="18375" left="114" top="343.5" width="40.5" height="327.75" align-x="114.75" align-y="354" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">t</ml:id>
+					<result xmlns="http://schemas.mathsoft.com/math30">
+						<ml:matrix rows="21" cols="1">
+							<ml:real>0</ml:real>
+							<ml:real>2</ml:real>
+							<ml:real>4</ml:real>
+							<ml:real>6</ml:real>
+							<ml:real>8</ml:real>
+							<ml:real>10</ml:real>
+							<ml:real>12</ml:real>
+							<ml:real>14</ml:real>
+							<ml:real>16</ml:real>
+							<ml:real>18</ml:real>
+							<ml:real>20</ml:real>
+							<ml:real>22</ml:real>
+							<ml:real>24</ml:real>
+							<ml:real>26</ml:real>
+							<ml:real>28</ml:real>
+							<ml:real>30</ml:real>
+							<ml:real>32</ml:real>
+							<ml:real>34</ml:real>
+							<ml:real>36</ml:real>
+							<ml:real>38</ml:real>
+							<ml:real>40</ml:real>
+						</ml:matrix>
+					</result>
+				</ml:eval>
+				<resultFormat>
+					<table item-idref="9"/>
+				</resultFormat>
+			</math>
+			<rendering item-idref="10"/>
+		</region>
+		<region region-id="18397" left="156" top="343.5" width="65.25" height="335.25" align-x="162.75" align-y="354" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:apply>
+						<ml:id xml:space="preserve">v</ml:id>
+						<ml:id xml:space="preserve">t</ml:id>
+					</ml:apply>
+					<result xmlns="http://schemas.mathsoft.com/math30">
+						<unitedValue>
+							<ml:matrix rows="21" cols="1">
+								<ml:real>0</ml:real>
+								<ml:real>16.4161127541297</ml:real>
+								<ml:real>27.788134911649202</ml:real>
+								<ml:real>35.665937037404063</ml:real>
+								<ml:real>41.123169310866714</ml:real>
+								<ml:real>44.903587200414655</ml:real>
+								<ml:real>47.522416435356838</ml:real>
+								<ml:real>49.336572108662047</ml:real>
+								<ml:real>50.59330193398727</ml:real>
+								<ml:real>51.463883150969885</ml:real>
+								<ml:real>52.066965563824048</ml:real>
+								<ml:real>52.484742090125174</ml:real>
+								<ml:real>52.774150672116832</ml:real>
+								<ml:real>52.974634237031282</ml:real>
+								<ml:real>53.1135162961748</ml:real>
+								<ml:real>53.209724812619385</ml:real>
+								<ml:real>53.276371856114793</ml:real>
+								<ml:real>53.322540621322148</ml:real>
+								<ml:real>53.354523358574689</ml:real>
+								<ml:real>53.376678932317475</ml:real>
+								<ml:real>53.392026882181682</ml:real>
+							</ml:matrix>
+							<unitMonomial xmlns="http://schemas.mathsoft.com/units10">
+								<unitReference unit="meter"/>
+								<unitReference unit="second" power-numerator="-1"/>
+							</unitMonomial>
+						</unitedValue>
+					</result>
+				</ml:eval>
+				<resultFormat>
+					<table item-idref="11"/>
+				</resultFormat>
+			</math>
+			<rendering item-idref="12"/>
+		</region>
+	</regions>
+	<binaryContent>
+		<item item-id="1" content-encoding="gzip">H4sIAAAAAAAA/4yQwW7CMAyG7aZbS9etu3AhSOUZeIIdENph2iT2ACiUAkVUTF2ROPLm3W8n
+u+w0R3b+Ot/vRsmJiJGfyEy1QS228/W+c1+H9e7cta5PSGKMHGl74XqnLZog07b62Bzrqvet
+ld8omqGYMF+8hWr5yty1+V7q6FjZKfKNA+tjwCKe/r/7OzzpO1fV84XRIxvAkp+JLQ+imG0E
+U8kRWwNryYZtPEgnBkMDxB2Y2wuO7oURV6IMRCqMwCOZI/YMjNofwKg9B6P2R/0XxJMyEIUw
+AvvrFu+Xtu6ayp38g6R67VfklhosE14uC6/5J3IpPwAAAP//AwARvY6sxgEAAA==</item>
+		<item item-id="2">iVBORw0KGgoAAAANSUhEUgAAAEIAAAAxCAYAAABu4n+HAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI2SURBVGhD7ZrrrcMgDIWZi4GYh2my
+TIah5hmgCeEZxYRK90elNsDHsX3sXiLWSxEgi4MmsEAYJSwQC0SYFOZRxMYEIUT/sa049c0B
+YueCEib08XfBKRGlLOYAAWqgfHcq2DkN3ufIYw4Q0Uk39lVF+CBkrqAcAqTsNZciVMK0ueKr
+IBogzOMsVdWgwsuXZXKYxWLLKuE8hPESfhXJoTJXjsg58cVnFgicvYZ2jTYMSuWfEgwuRcjK
+4LyzhNKWIH0w+EA0VocrVeACAaeQ9tlViAoHOQ2I4yA6X/TKE6gUEXeVNc3VJIoIq0bNAOYe
+hLSpHWOuztvIg9Y1TVnrnVrxTTBo1I7QeAEIbZVHg4hHeW8DoTwCU7dTPnHM0gNM8aTqYY3A
+f6RAKAkdUx5XsiB0OOtnYo7tw2aUUdKbGgsChjaBMbsCEceRP/Hp0O6m7+4hEGrAay/0FAQM
+PT0lyE3HJWpLKCIwO3a0XjRifwqEOpix62cgYNMU4tSvHiUgMiM18bFrEPG8Ief930JBQbCq
+SOQI//AlIFApQsvdJeiL8undzJQ5wmrFGrSEj1A13bS8R9WIS097MIRPeDBH2IXN0Lew1+g7
+A+iNseV5tyB8ZShDMrLOt5yk8bu3ILTJsTOAEWaq8QSdvp4BotNKL3/MAmEuCB8IY4q4G9nJ
+3sQL39J/jEAN4q8htI2aBFKXx9Aqwv7s32t8t0CgDg1vpLgUYW5ygfg8iEHGDF+yXCAGEUBb
+NQbx+AGUdHeFxte04AAAAABJRU5ErkJggg==</item>
+		<item item-id="3">iVBORw0KGgoAAAANSUhEUgAAAEEAAAATCAYAAADPsWC5AAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGASURBVFhH7ZaLjcMgDIaZi4GYh2lY
+JsP4bIOp8QGXx0VKFSpVbVNe/v7fNg7WC9xiAAsCmWA5YUHIxeA5TtgieOfA4dvHrZaqLXp+
+Ru+QZhVsg+gD1CG0no/wWWk89yEQEgQnAVAwHpgDgynP9fdOPBnWN0NIoVG/xojPXZVfwbEQ
+eFxQIAvAw04o9okhWy9TJYXK76EX8xht4aNtl1TsLr/LCbg/T9ZuMhBKqskeSWJESDGgg1Ty
+cU62A8VetEGx6NEId4xPeJCY+jUhpwQJ8df+Awg8X80l14hDyn8tBGUfUkerS/TmhQm1qC4S
+N6nPyWSeV/dWwPWBWekZiB4EjMEUVBsHCfCvEHaI3h1i00EEsAe2wrSLdSBQmmKt0F3idghn
+nWCD0xBsuxzXnnFN0IHfDuGsE5pWqG1/OR3knqAA3VMTrncHhkeH231ZMqrnBaYtku8RpS59
+ugO2VbyTPOSydNpDFyfmu8frIGhHSBq+DkJOG2ndueW+EMLvDPoBu2CrwnVivFUAAAAASUVO
+RK5CYII=</item>
+		<item item-id="4">iVBORw0KGgoAAAANSUhEUgAAAEkAAAApCAYAAAB5hwSGAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJeSURBVGhD7ZnrdcMgDIWZi4GYx9N4
+GQ9DES9LGGEldpsUq3/SnCgYPl29iPH6d0rAnFqogVdIAhEoJIUkICAweYaStsVbu/hNAKRn
+opAE4BSSQsoEcLjB/8Z4t6bPVme8Ce9NCMfFWb90YvJZSoqAEIjVRTiRS/sZUtiDIFmioKKi
+oqj0/ulKCiFlnSNVDkJNIZWQQTkJg1FIuGqRPmn1zjgf87bmJESpaSa3xXqT42yvbs47+5U5
+afOLzV4tZwLvQkmGHNKrx7hsR7v+wQTtT2MCe/lCSNGjRfq1DBdoEBa9TfOHeRUMVlRqARqH
+5QU/1wKAYkK1qfmh5AhUbuAQRzWhnPIqlYM9rJWbyYEiKSQk9dpkMQtzoSDbd9hchDE+MOSL
+w3Nyx3wWkrJ9yKx2SI3ciBRla71hNYDEdcDRkWch+cZWBl+pkPrSHj+sVoYq2SLd8Iq7NHYZ
+DhLkHT5x4+W6aruX0X592zZWNz+HWa4PKcIXQYaR65i3Sije8Qob55UUE2selbkjlgn6RiVF
+QIMLshbKXziXyUlJ7kJnXhBdoySSb1jPNJN7v2xf2NThq3x1YwmlsnmtutXOkbQAvRyXnkNh
+pv4q5b/fdyQKtzvJz7bW55rJf0RSIQmcpZAUkoCAwGRiJaU2pjfjsdWRmV3nhUSaYXS9ws1+
+g9l1bkid64921isd/Gh2nRcStKB4bMqjDtewjsabqSHtOXm/VeBgHJSEwnVaSOwgjH8hCb/d
+1hmV5CQ6u04LKVyikOqGbzRwdSMzKK5uaCicGJKgARKaKCQBKIWkkAQEBCY/mlhgdi3r2WYA
+AAAASUVORK5CYII=</item>
+		<item item-id="5">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</item>
+		<item item-id="6">iVBORw0KGgoAAAANSUhEUgAAAEMAAAATCAYAAADLRLCEAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFcSURBVFhH7ZdREsQQDIady4Gcx2lc
+xmGyhBJKS9Z2+8BMZ7czSHz5k6iAPRIBsVlkAhsGUcOGsWG0i0NWhtWgzQMVxCgQQuCjRuyR
++VJbtoNGCSjWN/xIMPzkIefY7riFDrgUCpAB/d/bs5hjQAkJLB64D4HR8eNZGC4aNDq3AfDR
+IxGyWpbRHQyMURKUe5Ltjh8BxpB0fWQqqQ06c0yrD+PfZ9R4kvqI/QiU2u758agyaiVMRRql
+PZsmFrQMa6itnh8sGH6zowiefi9CzYfhD8VQJUmzn8EYUWdrDjdNEP5MPqHxrIpQr3PNWJom
+XGXUTtwWUCxnDoTU7miTI3aQWrm+iPb8SGkylb+TfqXps60VC3tsxVybcV1xvrvWenSU/sXm
++25y3bnC/lQFLQVm/0IdyelTv5f0TsG+unR9CX7Zcqt1uJT9YbzoQ43ZMRZCexGMhadibrVh
+EHAf7C+ABolQXJoAAAAASUVORK5CYII=</item>
+		<item item-id="7" content-encoding="gzip">H4sIAAAAAAAA/4xTy27TUBCd63cSNw5JS2jtkFDYISFkyqK7qKoQCx5S+IDKOKYNIiR1TdVl
+xAfwC2z4Bvb8AOKPzJmZJCCx4VrjeZ05M/f6OiQiA3kDaYpt4x0Ul5PifLb46BKvI0hjusg1
+5kjsmGHz/PXb90VeSYQmUm/h7V1dLE8WNxp+AfERmGyBLyFjdP0FmQCf2398XuFzoo7Yli3T
+OVVZFLHkUsjOUkwn3f9BtLLd9Cv02PFUu75qL1DtN1IrIroOMIbxntITegQ5ZqamZL4jYxnz
+GJQtKVn5YUpInLS4mZifW9KynXZ/Iu9FUjhtc+E1hk2/YKRVm25J/FuH47rZrjK6PR2mu6u6
+t6dD7W5a39ZRtj71tbB3R0fpI7Svo/SF+ECdrjixgp1E2eOB6uSudhkQ2cY6IvAOtc9g22ek
+pck97TNC6FCpR0J9X7cUb7b0QL5wNE3PzstseXH2blHOs8oX7B5fFAmfZlWmH/NAFVlMZ6+v
+G9rTQ7HZa2Y3s6tnwqOXK+FrY9ZYXTUeMsn/RzfkflVmeZGe2npQa+DQdMjEpmbLmBhbqofG
+MrGN0qGxTezUHHGAoRqGC8xqjJTHGK7yBQMjYAyDG8zD5U1gpLwFjJSHwEj5jvSC0RYMjIgx
+DNZxo1ef5kU5y7MPeiCBjI0fgqY0w8PNI9Kf1aZ/Vvi38xsAAP//AwBQ5zcZ3QMAAA==</item>
+		<item item-id="8">iVBORw0KGgoAAAANSUhEUgAAARIAAAGTCAYAAADk251eAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABY6SURBVHhe7dwNUuJAEEBhzsWBOA+n
+4TIehiUoGliRkE7mp/NtlbWKmenp153nJER3Z/8QQACBIIFdcLzhCCCAwJlINAECCIQJEEkY
+oQkQQIBI9AACCIQJEEkYoQkQQIBI9AACCIQJEEkYoQkQQIBI9AACCIQJEEkYoQkQQIBI9AAC
+CIQJEEkYoQkQQIBI9AACCIQJtCGSj+N5v9udd8PH4fST1Onw+drlY/xyOGsTIIDAogQaEMnp
+fNgdzp/6+Dgf9zdpjF8ff75o/iZDAIEFCNQXyWXXsT9+/J/Kw+ung13JAvU2BQKrEKguko/j
+/nw4/lza3KQyvD4WzPjr2+WO/78uB2+Xhf7/vhTWG+/3RsQwTYhktz9eLmpulzb787BBuQpm
+dLvkUSSRpFscOzR+tn9y6qei0VpV795nO49XO5J+SjRtpdFCTotS9ig5leUdiRatVXWRnB/u
+hXwL5I97JNGkI8DXGiuntcguO2/GOg2EonnVF8n1rd/buzbDuzOflzaXa5uH12/HxJNetrWW
+mS1ayGVWsewsclqW55qzRWtVXyQDndHzInfv4Dx5jiSa9JoFmTu3nOaSKzsuY51y7Ehm9EHW
+Ys5AYQgCixCInlNt7EjeRBFN+s1wDkcgPYHoOUUk6VtEggi8JkAkrxk5AgEEXhAgEi2CAAJh
+AkQSRmgCBBAgEj2AAAJhAkQSRmgCBBAgEj2AAAJhAkQSRmgCBBAgEj2AAAJhAkQSRmgCBBAg
+Ej2AAAJhAkQSRmgCBBAgEj2AAAJhAkQSRmgCBBAgEj2AAAJhAkQSRmgCBBAgEj2AAAJhAkQS
+RmgCBBAgEj2AAAJhAkQSRmgCBBAgEj2AAAJhAkQSRmgCBBAgEj2AAAJhAkQSRmgCBBAgEj2A
+AAJhAkQSRmgCBBAgEj2AAAJhAkQSRmgCBBAgEj2AAAJhAkQSRmgCBBAgEj2AQG8EdrvzubEP
+Iumtiay3PoHaJ3F9Av+tgEgaLIolVSDwjhwqLK/1kETSeoWsbzkCf8liuSibnIlINln25Ek/
+E0bytGumRyQ16YsdJ/CbNOKzmuFNAkTyJjCHVyRAGhXh/x2aSJotjYX99xYnJM0SIJJmS7PR
+hY13HRtF0GPaRNJj1TKu+SaQjLltICci2UCRm03R7qPZ0ry7MCJ5l5jjYwTII8av0dFE0mhh
+0i3LpUu6ko4TIpLU5W0gOQJpoAjrL4FI1me8zQgEsqm6E8mmyl0gWQIpALm9EETSXk36XBGB
+9Fm3hVZNJAuB3Ow0BLLZ0rvZOjS/f3ECOMYZJpnBjiRJIYumYRdSFHcPwYikhyq1tEa7kJaq
+0cxaiKSZUnSwEBLpoEh1lkgkdbj3FdWlTF/1qrBaIqkAvauQdiFdlavWYomkFvke4pJID1Vq
+Yo1E0kQZGlwEiTRYlHaXRCTt1qbeykikHvtOIxNJp4VbbdkkshrazBMTSebqvpsbibxLzPFf
+BIhEK3wSIBGdECBAJAF4aYaSSJpS1kqESGqRbyUuibRSia7XQSRdly+4eBIJAjT8RoBIttoL
+JLLVyq+SN5GsgrXxSUmk8QL1tzwi6a9msRWTSIyf0b8SIJKtNQaRbK3iRfIlkiKYGwlCIo0U
+It8yiCRfTX/PiES2UukqeRJJFeyFg5JIYeDbC0ckW6g5kWyhylVzJJKq+AsEJ5ECkIUgksw9
+QCKZq9tUbkTSVDkWXAyJLAjTVK8IEMkrQr1+n0h6rVyX6yaSLsv2YtEkkrGqTedEJE2XZ8bi
+SGQGNEOiBIgkSrCl8STSUjU2tRYiyVRuIslUza5yIZKuyvXHYkkkSyW7zINIuizbL4smkiyV
+7DIPIumybA+LJpEMVew6ByLpunxfiyeSDFXsOgci6bp8l8WTSO8VTLF+Ium9jETSewVTrJ9I
+ei4jifRcvVRrJ5Key0kkPVcv1dqJpNdykkivlUu5biLptaxE0mvlUq6bSHosK4n0WLXUayaS
+HstLJD1WLfWaiaS38pJIbxXbxHqJpLcyE0lvFdvEeomkpzKTSE/V2tRaiaSnchNJT9Xa1FqJ
+pJdyk0gvldrkOomkl7ITSS+V2uQ6iaSHspNID1Xa9BqJpIfyE0kPVdr0Gomk9fKTSOsVsr4L
+ASJpvQ2IpPUKWR+RdNADRNJBkSzRjqTlHiCRlqtjbSMCRNJyOxBJy9WxtqwiOR125/3x4ye9
+0+F6E2j4OJx+Xo7as1gHEUkx1ALFCETPqV0s/IKjv6TxI5LT+bA7nD/9Mf48fod5wVU/n4pE
+imAWZBkCSUTycT7u9+fDYf+zI7mIZbw7GXYrt11JNOll0L+YhUiKYBZkGQLRc6qNHcmXND6O
+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
+2SqqkbpVowAAAABJRU5ErkJggg==</item>
+		<item item-id="9" content-encoding="gzip">H4sIAAAAAAAA/+xXTUwTURCe7R9taW23haItasEW4aYbPZigaSxETMQmreFqoN1ATcvy0zRy
+snrSBKOJxqgnvXjxxA1vaoxGEgVvJl4gnL1IvJDYdebNUraYKP7FGDrNvNk3b743b/a9Nzv1
+AICEnEF2i2cLtrbSlKpGgEhBdhazqZELarYkNJBG7kVQwqo4FgAqNuXxc+zZlRCKikOZfYai
+SfFOCGun0XcpFh9AzglgkXAiN1s7mxnsBg9P1uxVxNwegF1iLa7kUKZ/8nRJLUpiPhwAh1nh
+RfYJU6c6mVZH89q4XQwcIXROy7LOJnTHajE6pscmTmoXOaQzyE2oSNeCHES+i7yATt6ivGQF
+uIfyPTuFV6cA/OLZ4t8IVeZQ/QEOVTZCDSp3XqBablFwnZAIomWreKwEjbfPFBLr8mC8Sa04
+olGEPOCn1aF6U+OjLcD9uo9yBWeIobyBUtfJGk1TBTVZyKvjJYHBEWfNlWgRu7QoLz+cC6/A
+FjoBVqjqLnCYdJJ5obgci9Gv6uSRSW/Qf0VfkKsmbtDOojRo+CtBFPphHOUUzGxNBd+lENhr
+d55ywRU4KnXKH+RbFfAOvbSHzbaHuhZXro29kTCJwlMjkSTRO/lVRTv9U76JAphdzfFsF3dV
++rHNdulX/P9J+h3/9Booj9Oe0MeRPpqU8xu5YGeQHSunJ7j5x3v4PLjrTkZdh+oUKjFaWREy
+HnOQF6fHZ6CtBiRvwlK5No+8ptef0Jvs5DI1g1h+RpHHMBcU8BeFPmxHUSrijN9eXS9/Wl4v
+F7iGA5IDA23l7rkemF/7CJ//4ty9pDw3+/pwdkl+dB0exBbt7zaqoc2a6tubtdmxGPeM7lYL
++azqdfyvSOxWGxeitEuSJBYeyKhT+eHC+b789ERheOasllPZPkWNtJsB/F8B9tQX9WGjqI9w
+UR+Gdi7qI3u5qG+non4fz9AuXCZSIO1nRVhMGd2AdjA02snQDoIeYMuOGjRmhsYNRBcj4oQ4
+yAbxGqLbNNhjGqT+VwAAAP//AwAgT/ekDQ0AAA==</item>
+		<item item-id="10">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
+W/tcAAAAAElFTkSuQmCC</item>
+		<item item-id="11" content-encoding="gzip">H4sIAAAAAAAA/+xXTUxTQRCe19LSQksp0CIgWn5LVbCsBQXBEAsRE6FJMVwNtC9QUyg/TSO3
+6kkS/Ek0etXEePHEjaMaYyKJAp40xgTi2YvEC8bW2Z2lvBLjvzEG5mV2386b+Wbe7L59sxYA
+UJAHkPPEvQ7bnPiUqlYAJ4ZsGgsFhs+robiQQBC5A4269My4CJDMYQ8e48jAnNgljWzuEXa5
+zDohtE1ybGZFL1DLlMd0NoCwGUCnJADy2VXUS5rBIuT38rlcOLISnqmA4K1gI3cFhUx4R227
+iNbsHxzomTwdV8cU4dGCbNQKrMhFQtWkTgbVkUhs3CAe+Lh1OBYiWY6QtWWyYJwenTgZu0Av
+fQY5FwXBTBr6kJeRF9GJG3lWD/Aax6/IKbw9BVAo7nXFm8kooWQUOygZJU5KhkMmo5SS4YA9
+lIzSTDLK2K0n+KSknAE+6CpDUYW4TZbJGSTaKyK3YEb8sbHhGM8BPSjk8aN4S2Lj04hz/hL7
+NUToxP4a9uk010bVQFT1RyPqeFzY4JP8jCvRou3ykn317nz5GmyjE6CHVNoMRo1M0QaK4ejk
+OJXmHonSu/Rf0WfklIZ3aWdREGJ4xcEFPTCO/RTMbN8KvklOMGS+eb4XXIIWpdr+xn4jCdbB
+p4Zyra739sra7OhzBbdZeCg3Ej96535V0U7/lG9O+FdQtO/zo3aXle/r/Cj9iv8/Sb/jn6eB
+7+N8Tvjvk/9W+Z6/uxfsDDJgbdWPE97pofWQl7UysgbFQCWGgwROeRuGiFg9NmmtlyYRjS0v
+6BaQ19PZK/Q6ObnImz4sYV3Io7gXRPFyQTe2I9gzscZvvttIfFjdSESpygPe9/aWJhrmPbCw
+/h4+/kXsDi48O/esObRsv38F7tQuGVY2qyHT9lx9NX86+Z3xb6uE+0yls/hfkZitSpb7CQtR
+2z4qZit50Yo15n6qYcWQ78yKIl6qaECdigxFz3VHpieiQzP9sbBKWAHeKC6qannJjtpV8tBQ
+TdBVsk6uoTq5CmrJR02mTq6Th4Z6OjTUgZsODfUNdGhw80ODhwJ2HyBUjwz4IIF5tgLuCoBy
+iAKqEwE1bsI2EWzjYYJt4rBegm1qJlivhGUE682GPaKF9Um0FkLzcbRWQvMdJbRWiXaM0Fqz
+0do0hu3S8DgZtkvDDjJszxhy3S8AAAD//wMARk+ojv8NAAA=</item>
+		<item item-id="12">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
+AAAAAElFTkSuQmCC</item>
+	</binaryContent>
+</worksheet>
